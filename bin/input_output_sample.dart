@@ -21,13 +21,13 @@ void main() {
   // num intnumber = num.parse(number);
   // print(intnumber + 100);
 
-  int number1 = int.parse(stdin.readLineSync()!);
-  stdout.write("Enter your second number : ");
+  // int number1 = int.parse(stdin.readLineSync()!);
+  // stdout.write("Enter your second number : ");
 
-  int number2 = int.parse(stdin.readLineSync()!);
-  stdout.write("Enter your third number : ");
+  // int number2 = int.parse(stdin.readLineSync()!);
+  // stdout.write("Enter your third number : ");
 
-  int number3 = int.parse(stdin.readLineSync()!);
+  // int number3 = int.parse(stdin.readLineSync()!);
 }
 
 // print largest amoung three numbers 
