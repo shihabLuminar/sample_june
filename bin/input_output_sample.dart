@@ -1,3 +1,5 @@
+// ignore_for_file: unused_local_variable
+
 import 'dart:io';
 
 void main() {
@@ -17,17 +19,17 @@ void main() {
   // stdout.write("world");
 
   stdout.write("Enter your first number : ");
-  // String number = stdin.readLineSync()!;
-  // num intnumber = num.parse(number);
-  // print(intnumber + 100);
+  String number = stdin.readLineSync()!;
+  num intnumber = num.parse(number);
+  print(intnumber + 100);
 
-  // int number1 = int.parse(stdin.readLineSync()!);
-  // stdout.write("Enter your second number : ");
+  int number1 = int.parse(stdin.readLineSync()!);
+  stdout.write("Enter your second number : ");
 
-  // int number2 = int.parse(stdin.readLineSync()!);
-  // stdout.write("Enter your third number : ");
+  int number2 = int.parse(stdin.readLineSync()!);
+  stdout.write("Enter your third number : ");
 
-  // int number3 = int.parse(stdin.readLineSync()!);
+  int number3 = int.parse(stdin.readLineSync()!);
 }
 
 // print largest amoung three numbers 
